@@ -51,3 +51,39 @@ Rank the items by their similarity score
 Hybrid Approach
 
 We can also combine both CF and CBF techniques to create a hybrid recommendation system. This approach can leverage the strengths of both techniques to provide more accurate and personalized recommendations.
+
+
+
+
+Simple Recommendation System
+===========================
+
+This repository provides a simple implementation of a recommendation system using collaborative filtering and content-based filtering.
+
+**Collaborative Filtering**
+
+The collaborative filtering model recommends items to users based on the behavior or preferences of similar users.
+
+**Content-Based Filtering**
+
+The content-based filtering model recommends items to users based on the features or attributes of the items themselves.
+
+**Hybrid Model**
+
+The hybrid model combines both collaborative filtering and content-based filtering to provide more accurate and personalized recommendations.
+
+**Usage**
+
+1. Load the user-item matrix and item features using the `data_loader` module.
+2. Create an instance of the `CollaborativeFiltering`, `ContentBasedFiltering`, or `HybridModel` class.
+3. Call the `recommend` method to generate recommendations for a user.
+
+**Evaluation Metrics**
+
+The `evaluation_metrics` module provides functions to calculate precision and recall for evaluating the performance of the recommendation system.
+
+**Requirements**
+
+* Python 3.7+
+* pandas
+* scikit-learn
